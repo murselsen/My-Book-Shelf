@@ -12,6 +12,6 @@ This project is a personal book management system to keep track of your reading 
 
 // ...existing code...
 
-![Book Cover](cover.jpg)
+![Book Cover](./Cover.jpg)
 
 // ...existing code...
