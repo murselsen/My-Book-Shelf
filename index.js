@@ -10,6 +10,7 @@ app.use("/public", express.static("public"));
 app.get("/", (req, res) => {
   res.render("index");
 });
+app.use(require("./routers/session"));
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
