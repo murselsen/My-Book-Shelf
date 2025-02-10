@@ -23,7 +23,7 @@
 }
 
 .app-content .app-main-navbar .nav-tab.searchTab #searchType {
-  padding: 20px 11px 20px 37px;
+  padding: 20px 11px 20px 20px;
   font-family: Inter;
   font-weight: 400;
   font-size: 15px;
@@ -34,19 +34,32 @@
   border-bottom-left-radius: 30px;
   background: rgba(247, 247, 250, 1);
   color: rgba(77, 77, 77, 1);
+  position: relative;
+}
+.app-content .app-main-navbar .nav-tab.searchTab #searchType::after {
+  content: '▼';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 14px;
+  color: #2ecc71;
 }
 
 .app-content .app-main-navbar .nav-tab.searchTab #searchType:focus {
   outline: none;
   cursor: pointer;
+  background-color: orangered;
+  color: white;
   border: 1px solid orangered;
 }
 
 .app-content .app-main-navbar .nav-tab.searchTab #searchInput {
-  padding: 12px 0px 12px 21px;
+  padding: 12px 20px 12px 21px;
   font-family: Inter;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 25.7px;
   letter-spacing: 0%;
   outline: none;
@@ -54,4 +67,7 @@
 }
 .app-content .app-main-navbar .nav-tab.searchTab #searchInput:placeholder {
   color: rgba(199, 199, 199, 1);
+}
+.app-content .app-main-navbar .nav-tab.filterTab{
+  
 }
