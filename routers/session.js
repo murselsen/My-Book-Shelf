@@ -7,13 +7,15 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 router.post('/login', (req, res) => {
-  res.send('Okey');
+  const users = getUsers();
+  console.log('users', users);
+  console.log('Request:', req);
+  console.log(req.query);
 });
 
 // Register
 router.get('/register', (req, res) => {
   res.render('register');
-  console.log('Users:', getUsers());
 });
 
 module.exports = router;

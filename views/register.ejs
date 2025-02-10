@@ -42,7 +42,7 @@
           <div class="form-groups d-flex-column">
             <div class="form-group d-flex-column">
               <label for="formNameUsername" class="form-group-label"
-                >Name Surname</label
+                >Ad Soyad</label
               >
               <input
                 class="form-group-input"
@@ -69,7 +69,7 @@
                 type="password"
                 name="password"
                 id="formPass"
-                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                min="8"
                 placeholder="******"
               />
             </div>
@@ -82,46 +82,26 @@
                 type="password"
                 name="passwordVerify"
                 id="formPassVerify"
-                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                min="8"
                 placeholder="******"
               />
             </div>
-            <div class="form-groups d-flex-row form-checkbox-group">
-              <div class="form-group d-flex-row">
-                <label for="formRemember">
-                  <input
-                    type="checkbox"
-                    name="checkbox"
-                    id="formRemember"
-                    class="form-group-checkout"
-                  />
-                  Beni Hatırla
-                </label>
-              </div>
-              <div class="form-group d-flex-row">
-                <a href="/forgotPassword" class="text-primary-1"
-                  >Şifremi Unuttum ?</a
-                >
-              </div>
-            </div>
 
             <div class="form-groups">
-              <input
-                type="submit"
-                class="btn btn-primary form-button"
-                value="register"
-              />
+              <button type="submit" class="btn btn-primary form-button">
+                Kayıt Ol
+              </button>
             </div>
 
             <div class="form-groups d-flex-row form-links">
               <div class="form-group d-flex-row">
                 <p class="text-primary-2">
-                  Yeni Kullanıcı mı?
-                  <a href="#" class="text-primary-2">Kayıt Olun</a>
+                  Kullanıcı mısınız?
+                  <a href="/login" class="text-primary-2">Şimdi giriş yapın</a>
                 </p>
               </div>
               <div class="form-group d-flex-row">
-                <a href="/home" class="text-primary-2">Misafir olarak kullan</a>
+                <a href="/home" class="text-primary-2">Misafir </a>
               </div>
             </div>
           </div>
