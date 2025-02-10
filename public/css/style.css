@@ -11,7 +11,7 @@
 body {
   margin: 0;
   user-select: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 a {
   text-decoration: none;
@@ -63,4 +63,8 @@ a.text-primary-2:hover {
 .d-flex-column {
   display: flex;
   flex-direction: column;
+}
+.app-content {
+  width: 100%;
+  border: 1px solid green;
 }

@@ -1,9 +1,8 @@
-document.querySelector('input[type=radio]').addEventListener('change', e => {
-  console.log(e.target.value);
-  document.querySelector('#searchTypeSelectBox').style.visibility = 'hidden';
+$('input[type=radio]').click(function (e) {
+  e.preventDefault();
 });
-document.querySelector('.selectBoxBtn').addEventListener('click', e => {
-  document
-    .querySelector('#searchTypeSelectBox')
-    .toggleAttribute('class', 'visible');
+$('#searchType').click(() => {
+  console.log('Search Type Cklicked');
+  $('#searchTypeSelectBox').toggleClass('visible');
+  
 });

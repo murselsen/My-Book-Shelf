@@ -1,8 +1,10 @@
 .app-content .app-main-navbar {
+  width: 100%;
   display: flex;
   gap: 30px;
   padding: 38px 46px 24px 46px;
 }
+/*  Base - Nav Tab */
 .app-content .app-main-navbar .nav-tab {
   display: flex;
   border-radius: 30px;
@@ -13,7 +15,32 @@
   min-width: 170px;
   justify-content: center;
 }
+/*  Date Tab */
+.app-content .app-main-navbar .nav-tab.dateTab {
+  padding: 13px 55px;
+  gap: 64px;
+  min-width: 445px;
+}
 
+.app-content .app-main-navbar .nav-tab.dateTab .icon {
+  color: var(--primary-1);
+  font-size: 17px;
+}
+
+/* Filter Tab */
+.app-content .app-main-navbar .nav-tab.filterTab {
+  padding: 13px 25px;
+}
+
+.app-content .app-main-navbar .nav-tab.filterTab .icon {
+  color: var(--primary-1);
+}
+
+.app-content .app-main-navbar .nav-tab.filterTab #searchLanguage {
+  border: 0;
+}
+
+/* Search Tab */
 .app-content .app-main-navbar .nav-tab.searchTab {
   max-width: 541px;
   width: 100%;
@@ -29,7 +56,7 @@
 }
 
 .app-content .app-main-navbar .nav-tab.searchTab #searchType {
-  padding: 20px 11px 20px 20px;
+  padding: 20px 15px 20px 37px;
   font-family: Inter;
   font-weight: 400;
   font-size: 15px;
@@ -41,11 +68,12 @@
   background: rgba(247, 247, 250, 1);
   color: rgba(77, 77, 77, 1);
   position: relative;
+  cursor: pointer;
+  text-transform: capitalize;
 }
 
 .app-content .app-main-navbar .nav-tab.searchTab #searchType:hover {
   outline: none;
-  cursor: pointer;
   background-color: orangered;
   color: white;
   border: 1px solid orangered;
@@ -62,31 +90,33 @@
   width: 100%;
   border: 0;
 }
+
 .app-content .app-main-navbar .nav-tab.searchTab #searchInput:placeholder {
   color: rgba(199, 199, 199, 1);
 }
 
-.app-content .app-main-navbar .nav-tab.searchTab .selectBoxList {
-  width: 100%;
-  height: fit-content;
+/* Dropdown List Box  */
+.selectBoxList {
   border: 1px solid rgba(221, 221, 221, 1);
-  position: absolute;
-  top: 100%;
-  padding: 21px 18px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   gap: 25px;
+  height: fit-content;
+  left: 1%;
+  padding: 21px 18px;
+  position: absolute;
+  top: 140%;
   visibility: hidden;
+  width: 100%;
 }
-.app-content .app-main-navbar .nav-tab.searchTab .selectBoxList.visible {
+
+.selectBoxList.visible {
   visibility: visible;
 }
 
-.app-content
-  .app-main-navbar
-  .nav-tab.searchTab
-  .selectBoxList
-  .selectBox-item {
+.selectBoxList .selectBox-item {
   font-weight: 400;
   font-size: 20px;
   line-height: 25.7px;
@@ -94,53 +124,19 @@
   color: rgba(77, 77, 77, 1);
 }
 
-.app-content
-  .app-main-navbar
-  .nav-tab.searchTab
-  .selectBoxList
-  .selectBox-item
-  label
-  input {
+.selectBoxList .selectBox-item input {
   visibility: hidden;
 }
-.app-content
-  .app-main-navbar
-  .nav-tab.searchTab
-  .selectBoxList
-  .selectBox-item
-  label
-  .icon {
+
+.selectBoxList .selectBox-item .icon {
   margin-right: 15px;
 }
 
-.app-content
-  .app-main-navbar
-  .nav-tab.searchTab
-  .selectBoxList
-  .selectBox-item:hover,
-.app-content
-  .app-main-navbar
-  .nav-tab.searchTab
-  .selectBoxList
-  .selectBox-item:hover
-  label {
+.selectBoxList .selectBox-item:hover,
+.selectBoxList .selectBox-item:hover label {
   cursor: pointer;
   color: orangered;
-  padding: 4px 0px;
 }
-.app-content
-  .app-main-navbar
-  .nav-tab.searchTab
-  .selectBoxList
-  .selectBox-item:focus {
-  display: none;
-}
-.app-content .app-main-navbar .nav-tab.filterTab {
-  padding: 13px 25px;
-}
-.app-content .app-main-navbar .nav-tab.filterTab .icon {
-  color: var(--primary-1);
-}
-.app-content .app-main-navbar .nav-tab.filterTab #searchLanguage {
-  border: 0;
+.selectBoxList .selectBox-item:hover {
+  border-left: 1px solid orangered;
 }

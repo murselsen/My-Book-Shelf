@@ -1,5 +1,6 @@
-<form class="nav-tab searchTab" action="/search" method="get">
-  <button type="button" class="selectBoxBtn" id="searchType">Tümü</button>
+<!-- Search Tab -->
+<form class="nav-tab searchTab" id="searchTab" action="/search" method="get">
+  <button type="button" class="selectBoxBtn" id="searchType">All</button>
   <ul class="selectBoxList" id="searchTypeSelectBox">
     <li class="selectBox-item">
       <label for="searchTypeAll">
@@ -7,7 +8,6 @@
         <i class="icon fa-duotone fa-solid fa-list"></i> Tümü
       </label>
     </li>
-
     <li class="selectBox-item">
       <label for="searchTypeTitle">
         <input
@@ -57,13 +57,15 @@
   <input type="text" name="searchValue" id="searchInput" placeholder="Search" />
   <button class="searchBtn"><i class="icon fa fa-search"></i></button>
 </form>
-<form class="nav-tab filterTab" action="/search" method="get">
+<!-- Filter Tab -->
+<form class="nav-tab filterTab" id="filterTab" action="/search" method="get">
   <i class="icon fa fa-globe"></i>
   <select name="searchLanguage" id="searchLanguage">
     <option value="">Lang</option>
   </select>
 </form>
-<div class="nav-tab dateTab">
+<!-- Date Tab -->
+<div class="nav-tab dateTab" id="dateTab">
   <div class="nav-tab-item">
     <i class="icon far fa-clock"></i>
     <span id="time"> 09:00 AM </span>
@@ -73,7 +75,8 @@
     <span id="date">4-Mar-2023</span>
   </div>
 </div>
-<div class="nav-tab userTab">
+<!-- User Tab -->
+<div class="nav-tab userTab" id="userTab">
   <div class="nav-tab-item">
     <img src="public/images/user.jpg" alt="anonim" width="30px" />
     <span id="accountName">Anonim</span>
