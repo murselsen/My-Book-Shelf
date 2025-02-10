@@ -1,11 +1,59 @@
 <form class="nav-tab searchTab" action="/search" method="get">
-  <select name="searchType" id="searchType">
-    <option value="all">Tümü</option>
-    <option value="title">Başlık</option>
-    <option value="author">Yazar</option>
-    <option value="text">Metin</option>
-    <option value="subjects">Konular</option>
-  </select>
+  <button type="button" class="selectBoxBtn" id="searchType">Tümü</button>
+  <ul class="selectBoxList" id="searchTypeSelectBox">
+    <li class="selectBox-item">
+      <label for="searchTypeAll">
+        <input type="radio" name="searchType" value="all" id="searchTypeAll" />
+        <i class="icon fa-duotone fa-solid fa-list"></i> Tümü
+      </label>
+    </li>
+
+    <li class="selectBox-item">
+      <label for="searchTypeTitle">
+        <input
+          type="radio"
+          name="searchType"
+          value="title"
+          id="searchTypeTitle"
+        />
+        <i class="icon fa-duotone fa-solid fa-heading"></i> Başlık
+      </label>
+    </li>
+    <li class="selectBox-item">
+      <label for="searchTypeAuthor">
+        <input
+          type="radio"
+          name="searchType"
+          value="author"
+          id="searchTypeAuthor"
+        />
+        <i class="icon fa-duotone fa-solid fa-user"></i> Yazar
+      </label>
+    </li>
+    <li class="selectBox-item">
+      <label for="searchTypeText">
+        <input
+          type="radio"
+          name="searchType"
+          value="text"
+          id="searchTypeText"
+        />
+        <i class="icon fa-duotone fa-light fa-quote-left"></i> Metin
+      </label>
+    </li>
+    <li class="selectBox-item">
+      <label for="searchTypeSubjects">
+        <input
+          type="radio"
+          name="searchType"
+          value="subjects"
+          id="searchTypeSubjects"
+        />
+        <i class="icon fa-duotone fa-solid fa-objects-column"></i> Konular
+      </label>
+    </li>
+  </ul>
+
   <input type="text" name="searchValue" id="searchInput" placeholder="Search" />
   <button class="searchBtn"><i class="icon fa fa-search"></i></button>
 </form>
