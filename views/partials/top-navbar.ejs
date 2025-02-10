@@ -4,7 +4,7 @@
     <i class="fa-solid fa-filter"></i> Filtrele
   </button>
   <ul class="selectBoxList" id="searchTypeSelectBox">
-    <li class="selectBox-item">
+    <li class="selectBox-item active">
       <label for="searchTypeAll">
         <input
           type="radio"
@@ -67,10 +67,24 @@
 </form>
 <!-- Filter Tab -->
 <form class="nav-tab filterTab" id="filterTab" action="/search" method="get">
-  <i class="icon fa fa-globe"></i>
-  <select name="searchLanguage" id="searchLanguage">
-    <option value="">Lang</option>
-  </select>
+  <button type="button" class="selectBoxBtn d-flex-row" id="searchLanguage">
+    <i class="icon fa fa-globe"></i> Dil
+  </button>
+
+  <ul class="selectBoxList" id="searchLanguageSelectBox">
+    <li class="selectBox-item active">
+      <label for="searchLanguageAll">
+        <input
+          type="radio"
+          name="searchLanguage"
+          value="all"
+          id="searchLanguageAll"
+          checked
+        />
+        <i class="icon fa-duotone fa-solid fa-list"></i> Türkçe
+      </label>
+    </li>
+  </ul>
 </form>
 <!-- Date Tab -->
 <div class="nav-tab dateTab" id="dateTab">

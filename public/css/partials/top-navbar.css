@@ -57,6 +57,7 @@
 .app-content .app-main-navbar .nav-tab.searchTab .icon {
   color: var(--primary-1);
   font-size: 17px;
+  margin-left: 15px;
 }
 
 .app-content .app-main-navbar .nav-tab.searchTab #searchType {
@@ -133,11 +134,9 @@
   color: rgba(77, 77, 77, 1);
 }
 
-.selectBoxList .selectBox-item {
-  border: 1px solid orange;
-}
 .selectBoxList .selectBox-item label {
-  z-index: -1;
+  display: block;
+  width: 100%;
 }
 
 .selectBoxList .selectBox-item input {

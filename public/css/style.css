@@ -66,5 +66,10 @@ a.text-primary-2:hover {
 }
 .app-content {
   width: 100%;
-  border: 1px solid green;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f3f3f7 76.5%,
+    rgba(243, 243, 247, 0.88) 114.75%
+  );
 }

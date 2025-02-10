@@ -33,6 +33,10 @@
   font-size: 21.5px;
 }
 
+.app-sidebar .nav-sidebar .menus .menu-list .menu-item .menu-link.active {
+  color: orangered;
+}
+
 .app-sidebar .nav-sidebar .menus .menu-list .menu-item .menu-link .icon {
   color: var(--primary-2);
 }
