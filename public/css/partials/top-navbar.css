@@ -1,5 +1,5 @@
 .app-content .app-main-navbar {
-  width: 100%;
+  width: 75%;
   display: flex;
   gap: 30px;
   padding: 38px 46px 24px 46px;
@@ -15,11 +15,13 @@
   min-width: 170px;
   justify-content: center;
 }
+
 /*  Date Tab */
 .app-content .app-main-navbar .nav-tab.dateTab {
   padding: 13px 55px;
   gap: 64px;
   min-width: 445px;
+  flex: 2;
 }
 
 .app-content .app-main-navbar .nav-tab.dateTab .icon {
@@ -30,6 +32,7 @@
 /* Filter Tab */
 .app-content .app-main-navbar .nav-tab.filterTab {
   padding: 13px 25px;
+  flex: 1;
 }
 
 .app-content .app-main-navbar .nav-tab.filterTab .icon {
@@ -48,6 +51,7 @@
   padding: 0;
   padding-right: 17px;
   position: relative;
+  flex: 3;
 }
 
 .app-content .app-main-navbar .nav-tab.searchTab .icon {
@@ -69,6 +73,8 @@
   color: rgba(77, 77, 77, 1);
   position: relative;
   cursor: pointer;
+  align-items: center;
+  gap: 10px;
   text-transform: capitalize;
 }
 
@@ -111,6 +117,9 @@
   visibility: hidden;
   width: 100%;
 }
+.app-content .app-main-navbar .nav-tab.userTab {
+  flex: 1;
+}
 
 .selectBoxList.visible {
   visibility: visible;
@@ -118,10 +127,17 @@
 
 .selectBoxList .selectBox-item {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 25.7px;
   letter-spacing: 0%;
   color: rgba(77, 77, 77, 1);
+}
+
+.selectBoxList .selectBox-item {
+  border: 1px solid orange;
+}
+.selectBoxList .selectBox-item label {
+  z-index: -1;
 }
 
 .selectBoxList .selectBox-item input {
@@ -135,8 +151,8 @@
 .selectBoxList .selectBox-item:hover,
 .selectBoxList .selectBox-item:hover label {
   cursor: pointer;
-  color: orangered;
 }
+.selectBoxList .selectBox-item.active,
 .selectBoxList .selectBox-item:hover {
-  border-left: 1px solid orangered;
+  border-left: 3px solid orangered;
 }

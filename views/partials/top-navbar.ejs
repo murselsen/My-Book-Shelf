@@ -1,10 +1,18 @@
 <!-- Search Tab -->
 <form class="nav-tab searchTab" id="searchTab" action="/search" method="get">
-  <button type="button" class="selectBoxBtn" id="searchType">All</button>
+  <button type="button" class="selectBoxBtn d-flex-row" id="searchType">
+    <i class="fa-solid fa-filter"></i> Filtrele
+  </button>
   <ul class="selectBoxList" id="searchTypeSelectBox">
     <li class="selectBox-item">
       <label for="searchTypeAll">
-        <input type="radio" name="searchType" value="all" id="searchTypeAll" />
+        <input
+          type="radio"
+          name="searchType"
+          value="all"
+          id="searchTypeAll"
+          checked
+        />
         <i class="icon fa-duotone fa-solid fa-list"></i> Tümü
       </label>
     </li>

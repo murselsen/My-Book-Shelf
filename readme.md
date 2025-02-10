@@ -10,8 +10,5 @@ This project is a personal book management system to keep track of your reading 
 - 📖 Track reading status (read, currently reading, want to read).
 - 🔍 Search and filter books in your collection.
 
-// ...existing code...
-
 ![Book Cover](./Cover.jpg)
 
-// ...existing code...
