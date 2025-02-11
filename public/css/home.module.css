@@ -30,6 +30,7 @@ body {
 }
 .area-wrapper .area-arrival {
   flex: 2;
+  display: flex;
 }
 .area-wrapper .area-arrival .arrival-list {
   display: flex;
