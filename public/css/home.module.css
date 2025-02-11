@@ -62,11 +62,8 @@ body {
   align-items: center;
   position: relative;
   border: 2px solid;
-  border-image-source: linear-gradient(
-    97.99deg,
-    #eb5231 1.86%,
-    #571fcf 110.83%
-  );
+  border-color: linear-gradient(97.99deg, #eb5231 1.86%, #571fcf 110.83%);
+  border-radius: 10px;
 }
 .area-wrapper .area-arrival .arrival-header {
   position: absolute;
@@ -79,11 +76,13 @@ body {
   line-height: 32.13px;
   letter-spacing: 0%;
   transform: rotate(-90deg);
-  /* left: -75px; */
-  width: 220px;
+  left: -85px;
+  width: 230px;
   text-align: center;
   align-content: center;
   padding: 13px 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .area-wrapper .area-arrival .arrival-list {
