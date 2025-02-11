@@ -16,15 +16,17 @@ body {
   height: 100vh;
   padding: 38px 66px;
 }
-.area-wrapper{
-  
+.area-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 44px;
 }
 
-.area-quote {
+.area-wrapper .area-quote {
   background: linear-gradient(140.88deg, #eb5231 -29.15%, #571fcf 151.64%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
   flex: 1;
 }
-.area-arrival {
+.area-wrapper .area-arrival {
   flex: 2;
 }
