@@ -15,7 +15,6 @@
   min-width: 170px;
   justify-content: center;
 }
-/*
 
 .app-content .app-main-navbar .nav-tab.dateTab {
   padding: 13px 55px;
@@ -99,7 +98,7 @@
 .app-content .app-main-navbar .nav-tab.searchTab #searchInput::placeholder {
   color: rgba(199, 199, 199, 1);
 }
-
+/*
 .selectBoxList {
   border: 1px solid rgba(221, 221, 221, 1);
   border-radius: 10px;
