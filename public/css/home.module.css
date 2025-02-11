@@ -29,15 +29,21 @@ body {
   color: white;
   flex: 1;
   padding: 33px 23px;
+  border-radius: 10px;
+}
+.area-wrapper .area-quote .quote-header {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32.13px;
+  letter-spacing: 0%;
+}
+.area-wrapper .area-quote .quote-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
 }
 
-/* 
-font-family: Inter;
-font-weight: 500;
-font-size: 25px;
-line-height: 32.13px;
-letter-spacing: 0%;
- */
 .area-wrapper .area-arrival {
   flex: 2;
   display: flex;
