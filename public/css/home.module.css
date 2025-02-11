@@ -69,7 +69,8 @@ body {
   font-size: 25px;
   line-height: 32.13px;
   letter-spacing: 0%;
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
+  height: fit-content;
 }
 
 .area-wrapper .area-arrival .arrival-list {
