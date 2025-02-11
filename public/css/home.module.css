@@ -16,6 +16,9 @@ body {
   height: 100vh;
   padding: 38px 66px;
 }
+.area-wrapper{
+  
+}
 
 .area-quote {
   background: linear-gradient(140.88deg, #eb5231 -29.15%, #571fcf 151.64%),
