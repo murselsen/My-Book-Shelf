@@ -60,8 +60,16 @@ body {
   flex: 2;
   display: flex;
 }
-.area-wrapper .area-arrival .arrival-header{
-  
+.area-wrapper .area-arrival .arrival-header {
+  background: linear-gradient(182.98deg, #eb5231 -4.09%, #571fcf 165.15%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  color: white;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32.13px;
+  letter-spacing: 0%;
+  transform: rotate(90deg);
 }
 
 .area-wrapper .area-arrival .arrival-list {
