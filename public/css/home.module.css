@@ -125,3 +125,14 @@ body {
   line-height: 44.98px;
   color: rgba(77, 77, 77, 1);
 }
+
+.recommend-wrapper {
+  padding: 25px 44px;
+}
+
+.recommend-wrapper .recommend-header {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32.13px;
+  color: rgba(77, 77, 77, 1);
+}
