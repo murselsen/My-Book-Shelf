@@ -30,3 +30,6 @@ body {
 .area-wrapper .area-arrival {
   flex: 2;
 }
+.area-wrapper .area-arrival .arrival-list {
+  display: flex; gap:
+}
