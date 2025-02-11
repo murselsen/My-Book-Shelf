@@ -98,7 +98,7 @@
 .app-content .app-main-navbar .nav-tab.searchTab #searchInput::placeholder {
   color: rgba(199, 199, 199, 1);
 }
-/*
+
 .selectBoxList {
   border: 1px solid rgba(221, 221, 221, 1);
   border-radius: 10px;
@@ -118,7 +118,7 @@
 .app-content .app-main-navbar .nav-tab.userTab {
   flex: 1;
 }
-
+/*
 .selectBoxList.visible {
   visibility: visible;
 }
