@@ -26,7 +26,7 @@ body {
 .area-wrapper .area-quote {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 22px;
   background: linear-gradient(140.88deg, #eb5231 -29.15%, #571fcf 151.64%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
   color: white;
@@ -59,7 +59,7 @@ body {
 .area-wrapper .area-arrival {
   flex: 2;
   display: flex;
-  max-width: 800px;
+
   height: 250px;
   padding: 13px;
   box-sizing: content-box;
@@ -91,6 +91,7 @@ body {
 }
 
 .area-wrapper .area-arrival .arrival-list {
+  max-width: 900px;
   display: flex;
   gap: 48px;
   margin-block: 13px;
@@ -107,7 +108,9 @@ body {
   min-width: 167px;
   min-height: 203px;
   border-radius: 10px;
+  cursor: pointer;
 }
 .area-wrapper .area-arrival .arrival-list .arrival-list-item img {
-  border: none;
+  border-radius: 10px;
+  box-shadow: none;
 }
