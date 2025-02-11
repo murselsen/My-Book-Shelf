@@ -65,7 +65,7 @@ body {
   box-sizing: content-box;
   align-items: center;
   border: 2px solid;
-  border-color: linear-gradient(97.99deg, #eb5231 1.86%, #571fcf 110.83%);
+  border-color: 
   border-radius: 10px;
   position: relative;
 }
@@ -80,9 +80,9 @@ body {
   line-height: 32.13px;
   letter-spacing: 0%;
   transform: rotate(-90deg);
-  left: -95px;
+  left: -110px;
   height: 60px;
-  width: 246px;
+  width: 280px;
   text-align: center;
   align-content: center;
   padding: 13px 15px;
@@ -95,8 +95,10 @@ body {
   gap: 48px;
   margin-block: 13px;
   margin-inline-start: 95px;
-  overflow-x: ;
-  border: 1px solid green;
+  overflow-x: auto;
+  padding-inline: 5px;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
 }
 .area-wrapper .area-arrival .arrival-list .arrival-list-item {
   padding: 16px 22px;
