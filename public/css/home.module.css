@@ -129,7 +129,9 @@ body {
 .recommend-wrapper {
   padding: 25px 44px;
 }
-
+.recommend-wrapper .recommend-header {
+  jc
+}
 .recommend-wrapper .recommend-header .recommend-title {
   font-weight: 400;
   font-size: 25px;
