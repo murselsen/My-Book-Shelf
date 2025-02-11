@@ -91,6 +91,7 @@ body {
   gap: 48px;
   margin-block: 13px;
   margin-inline-start: 95px;
+  width: 100%;
 }
 .area-wrapper .area-arrival .arrival-list .arrival-list-item {
   padding: 16px 22px;
