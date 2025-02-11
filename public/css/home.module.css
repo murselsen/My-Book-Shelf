@@ -31,5 +31,9 @@ body {
   flex: 2;
 }
 .area-wrapper .area-arrival .arrival-list {
-  display: flex; gap:
+  display: flex;
+  gap: 48px;
+}
+.area-wrapper .area-arrival .arrival-list .arrival-list-item {
+  
 }
