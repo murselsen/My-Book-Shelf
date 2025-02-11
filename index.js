@@ -14,5 +14,5 @@ app.use(require('./routers/session'));
 app.use(require('./routers/main'));
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`Listening on port ${port}`);
 });
