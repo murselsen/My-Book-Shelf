@@ -61,6 +61,12 @@ body {
   display: flex;
   align-items: center;
   position: relative;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    97.99deg,
+    #eb5231 1.86%,
+    #571fcf 110.83%
+  );
 }
 .area-wrapper .area-arrival .arrival-header {
   position: absolute;
@@ -73,8 +79,8 @@ body {
   line-height: 32.13px;
   letter-spacing: 0%;
   transform: rotate(-90deg);
-  /* height: 60px; */
-  width: 230px;
+  left: -95px;
+  width: 220px;
   text-align: center;
   align-content: center;
   padding: 13px 15px;
@@ -83,7 +89,7 @@ body {
 .area-wrapper .area-arrival .arrival-list {
   display: flex;
   gap: 48px;
-  margin-inline-start: 195px;
+  margin-inline-start: 95px;
 }
 .area-wrapper .area-arrival .arrival-list .arrival-list-item {
   padding: 16px 22px;
