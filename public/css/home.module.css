@@ -95,7 +95,7 @@ body {
   gap: 48px;
   margin-block: 13px;
   margin-inline-start: 95px;
-  overflow-x: auto;
+  overflow-x: ;
   border: 1px solid green;
 }
 .area-wrapper .area-arrival .arrival-list .arrival-list-item {
