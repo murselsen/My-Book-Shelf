@@ -60,6 +60,10 @@ body {
   flex: 2;
   display: flex;
 }
+.area-wrapper .area-arrival .arrival-header{
+  
+}
+
 .area-wrapper .area-arrival .arrival-list {
   display: flex;
   gap: 48px;
