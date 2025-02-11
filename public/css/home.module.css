@@ -31,10 +31,9 @@ body {
     linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
   color: white;
   flex: 1;
-  padding: 33px 23px;
   padding-block: 33px;
   padding-inline-start: 36px;
-  padding-inline-end: 36px;
+  padding-inline-end: 26px;
   border-radius: 10px;
 }
 .area-wrapper .area-quote .quote-header {
