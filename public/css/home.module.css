@@ -130,7 +130,7 @@ body {
   padding: 25px 44px;
 }
 
-.recommend-wrapper .recommend-header {
+.recommend-wrapper .recommend-header .recommend-title {
   font-weight: 400;
   font-size: 25px;
   line-height: 32.13px;
