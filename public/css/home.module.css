@@ -18,6 +18,7 @@ body {
 }
 .area-wrapper {
   display: flex;
+  gap: 44px;
   justify-content: space-between;
   padding: 25px 44px;
 }
@@ -29,7 +30,6 @@ body {
 }
 .area-wrapper .area-arrival {
   flex: 2;
-  
 }
 .area-wrapper .area-arrival .arrival-list {
   display: flex;
