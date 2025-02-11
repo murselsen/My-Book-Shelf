@@ -32,7 +32,7 @@ body {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  
+  gap: 12px;
 }
 .area-wrapper .area-quote .quote-header {
   font-weight: 500;
