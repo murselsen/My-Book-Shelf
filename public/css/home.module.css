@@ -28,8 +28,16 @@ body {
     linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
   color: white;
   flex: 1;
+  padding: 33px 23px;
 }
 
+/* 
+font-family: Inter;
+font-weight: 500;
+font-size: 25px;
+line-height: 32.13px;
+letter-spacing: 0%;
+ */
 .area-wrapper .area-arrival {
   flex: 2;
   display: flex;
