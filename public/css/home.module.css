@@ -30,6 +30,9 @@ body {
   flex: 1;
   padding: 33px 23px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  
 }
 .area-wrapper .area-quote .quote-header {
   font-weight: 500;
