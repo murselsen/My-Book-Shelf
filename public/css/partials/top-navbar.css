@@ -1,22 +1,22 @@
-.app-content .app-main-navbar {
+/* .app-content .app-main-navbar {
   width: 75%;
   display: flex;
   gap: 30px;
   padding: 38px 46px 24px 46px;
 }
-/*  Base - Nav Tab */
+/* Base - Nav Tab */
 .app-content .app-main-navbar .nav-tab {
   display: flex;
   border-radius: 30px;
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-  padding: 0px 25px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  padding: 0 25px;
   align-items: center;
   gap: 10px;
   min-width: 170px;
   justify-content: center;
 }
 
-/*  Date Tab */
+/* Date Tab */
 .app-content .app-main-navbar .nav-tab.dateTab {
   padding: 13px 55px;
   gap: 64px;
@@ -66,7 +66,7 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 25.7px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   border: 0;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -92,21 +92,21 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 25.7px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   outline: none;
   width: 100%;
   border: 0;
 }
 
-.app-content .app-main-navbar .nav-tab.searchTab #searchInput:placeholder {
+.app-content .app-main-navbar .nav-tab.searchTab #searchInput::placeholder {
   color: rgba(199, 199, 199, 1);
 }
 
-/* Dropdown List Box  */
+/* Dropdown List Box */
 .selectBoxList {
   border: 1px solid rgba(221, 221, 221, 1);
   border-radius: 10px;
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -118,6 +118,7 @@
   visibility: hidden;
   width: 100%;
 }
+
 .app-content .app-main-navbar .nav-tab.userTab {
   flex: 1;
 }
@@ -130,7 +131,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 25.7px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: rgba(77, 77, 77, 1);
 }
 
@@ -151,7 +152,8 @@
 .selectBoxList .selectBox-item:hover label {
   cursor: pointer;
 }
+
 .selectBoxList .selectBox-item.active,
 .selectBoxList .selectBox-item:hover {
   border-left: 3px solid orangered;
-}
+} */
