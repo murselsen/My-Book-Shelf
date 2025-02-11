@@ -1,10 +1,10 @@
-/* .app-content .app-main-navbar {
+.app-content .app-main-navbar {
   width: 75%;
   display: flex;
   gap: 30px;
   padding: 38px 46px 24px 46px;
 }
-/* Base - Nav Tab */
+/*
 .app-content .app-main-navbar .nav-tab {
   display: flex;
   border-radius: 30px;
@@ -16,7 +16,6 @@
   justify-content: center;
 }
 
-/* Date Tab */
 .app-content .app-main-navbar .nav-tab.dateTab {
   padding: 13px 55px;
   gap: 64px;
@@ -29,7 +28,6 @@
   font-size: 17px;
 }
 
-/* Filter Tab */
 .app-content .app-main-navbar .nav-tab.filterTab {
   padding: 13px 25px;
   flex: 1;
@@ -43,7 +41,6 @@
   border: 0;
 }
 
-/* Search Tab */
 .app-content .app-main-navbar .nav-tab.searchTab {
   max-width: 541px;
   width: 100%;
@@ -102,7 +99,6 @@
   color: rgba(199, 199, 199, 1);
 }
 
-/* Dropdown List Box */
 .selectBoxList {
   border: 1px solid rgba(221, 221, 221, 1);
   border-radius: 10px;
