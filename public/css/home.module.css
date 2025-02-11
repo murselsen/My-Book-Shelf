@@ -65,7 +65,7 @@ body {
   box-sizing: content-box;
   align-items: center;
   border: 2px solid;
-  border-color: 
+  border-color: rgba(220, 220, 220, 1);
   border-radius: 10px;
   position: relative;
 }
@@ -96,7 +96,7 @@ body {
   margin-block: 13px;
   margin-inline-start: 95px;
   overflow-x: auto;
-  padding-inline: 5px;
+  padding: 5px;
   scrollbar-color: transparent transparent;
   scrollbar-width: thin;
 }
@@ -107,4 +107,7 @@ body {
   min-width: 167px;
   min-height: 203px;
   border-radius: 10px;
+}
+.area-wrapper .area-arrival .arrival-list .arrival-list-item img {
+  border: none;
 }
