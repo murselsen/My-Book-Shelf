@@ -59,7 +59,10 @@ body {
 .area-wrapper .area-arrival {
   flex: 2;
   display: flex;
+  max-width: 800px;
   height: 250px;
+  padding: 13px;
+  box-sizing: content-box;
   align-items: center;
   border: 2px solid;
   border-color: linear-gradient(97.99deg, #eb5231 1.86%, #571fcf 110.83%);
