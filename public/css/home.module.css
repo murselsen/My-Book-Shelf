@@ -116,7 +116,7 @@ body {
 }
 
 .welcomeHeader-wrapper {
-  padding: 10px 44px;
+  padding: 10px 50px;
 }
 
 .welcomeHeader-wrapper .welcome-header {
@@ -127,14 +127,24 @@ body {
 }
 
 .recommend-wrapper {
-  padding: 25px 44px;
+  padding: 25px 50px;
 }
 .recommend-wrapper .recommend-header {
-  jc
+  justify-content: space-between;
 }
 .recommend-wrapper .recommend-header .recommend-title {
   font-weight: 400;
   font-size: 25px;
   line-height: 32.13px;
+  color: rgba(77, 77, 77, 1);
+}
+.recommend-wrapper .recommend-header .recommend-btn {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.7px;
+  text-align: right;
+  color: rgba(138, 138, 138, 1);
+}
+.recommend-wrapper .recommend-header .recommend-btn:hover {
   color: rgba(77, 77, 77, 1);
 }
