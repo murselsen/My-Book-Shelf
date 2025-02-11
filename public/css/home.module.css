@@ -114,3 +114,9 @@ body {
   border-radius: 10px;
   box-shadow: none;
 }
+
+.welcomeHeader-wrapper {
+  padding: 10px 44px;
+}
+
+.welcomeHeader-wrapper .we
