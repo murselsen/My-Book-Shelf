@@ -69,15 +69,15 @@ body {
   color: white;
   font-family: Inter;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 32.13px;
   letter-spacing: 0%;
   transform: rotate(-90deg);
   /* height: 60px; */
-  width: 233px;
+  width: 100%;
   text-align: center;
   align-content: center;
-  padding: 13px 35px;
+  padding: 13px 15px;
 }
 
 .area-wrapper .area-arrival .arrival-list {
