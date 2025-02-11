@@ -61,7 +61,7 @@ body {
   display: flex;
   align-items: center;
   position: relative;
-  border: 1px solid;
+  border: 2px solid;
   border-image-source: linear-gradient(
     97.99deg,
     #eb5231 1.86%,
@@ -79,7 +79,7 @@ body {
   line-height: 32.13px;
   letter-spacing: 0%;
   transform: rotate(-90deg);
-  left: -75px;
+  /* left: -75px; */
   width: 220px;
   text-align: center;
   align-content: center;
