@@ -57,7 +57,7 @@ body {
 }
 
 .area-wrapper .area-arrival {
-  flex: 2;
+  max-width: 800px;
   display: flex;
 
   height: 250px;
@@ -74,7 +74,6 @@ body {
   background: linear-gradient(182.98deg, #eb5231 -4.09%, #571fcf 165.15%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
   color: white;
-  font-family: Inter;
   font-weight: 500;
   font-size: 20px;
   line-height: 32.13px;
@@ -91,8 +90,8 @@ body {
 }
 
 .area-wrapper .area-arrival .arrival-list {
+  /* max-width: 700px; */
   width: 100%;
-
   display: flex;
   gap: 48px;
   margin-block: 13px;
