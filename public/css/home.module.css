@@ -30,7 +30,7 @@ body {
   background: linear-gradient(140.88deg, #eb5231 -29.15%, #571fcf 151.64%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
   color: white;
-  flex: 1;
+  width: 50%;
   padding-block: 33px;
   padding-inline-start: 36px;
   padding-inline-end: 26px;
