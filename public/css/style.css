@@ -12,6 +12,12 @@ body {
   margin: 0;
   user-select: none;
   font-family: 'Inter', sans-serif;
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 48px 35px 0px 35px;
 }
 a {
   text-decoration: none;
