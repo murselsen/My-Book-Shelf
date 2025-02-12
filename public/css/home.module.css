@@ -144,15 +144,14 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 24px;
 }
 .recommend-wrapper .recommend-content .library-list .library-item {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 12px;
 }
 .recommend-wrapper .recommend-content .library-list .library-item .books {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  gap: 12px;
 }
