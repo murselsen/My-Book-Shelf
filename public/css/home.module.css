@@ -140,3 +140,17 @@
 .recommend-wrapper .recommend-header .recommend-btn:hover {
   color: rgba(77, 77, 77, 1);
 }
+.recommend-wrapper .recommend-content .library-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.recommend-wrapper .recommend-content .library-list .library-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.recommend-wrapper .recommend-content .library-list .library-item .books {
+  display: flex;
+  gap: 12px;
+}
