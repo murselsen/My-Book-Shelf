@@ -2,8 +2,9 @@ const express = require('express');
 const router = express.Router();
 
 const { topBooks } = require('../controllers/books');
-router.get('/home', (req, res) => {
-  topBooks();
+router.get('/home', async (req, res) => {
+  const books = await topBooks();
+  console.log(books);
   res.render('home');
 });
 
