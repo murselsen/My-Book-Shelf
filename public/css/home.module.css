@@ -144,7 +144,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 14px;
 }
 .recommend-wrapper .recommend-content .library-list .library-item {
   display: flex;
@@ -157,7 +157,7 @@
 }
 .recommend-wrapper .recommend-content .library-list .library-item .books .book {
   cursor: pointer;
-  transition: all 1s ease-out;
+  transition: all 100ms ease-out 1s;
 }
 .recommend-wrapper
   .recommend-content
