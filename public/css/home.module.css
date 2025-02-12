@@ -89,8 +89,7 @@
   margin-inline-start: 95px;
   overflow-x: auto;
   padding: 5px;
-  scrollbar-color: linear-gradient(182.98deg, #eb5231 -4.09%, #571fcf 165.15%),
-    linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) transparent;
+  scrollbar-color: #eb5231 transparent;
   scrollbar-width: thin;
   box-sizing: content-box;
 }
