@@ -92,7 +92,7 @@ body {
 
 .area-wrapper .area-arrival .arrival-list {
   width: 100%;
-  max-width: 1000px;
+
   display: flex;
   gap: 48px;
   margin-block: 13px;
@@ -101,7 +101,7 @@ body {
   padding: 5px;
   scrollbar-color: transparent transparent;
   scrollbar-width: thin;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 .area-wrapper .area-arrival .arrival-list .arrival-list-item {
   padding: 16px 22px;
