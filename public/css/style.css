@@ -10,7 +10,7 @@
 
 body {
   margin: 0;
-  /* user-select: none; */
+  user-select: none;
   font-family: 'Inter', sans-serif;
 }
 a {
@@ -65,7 +65,8 @@ a.text-primary-2:hover {
   flex-direction: column;
 }
 .app-content {
-  width: 100%;
+  /* width: 100%; */
+  flex: 1;
   background: linear-gradient(
     180deg,
     #ffffff 0%,
