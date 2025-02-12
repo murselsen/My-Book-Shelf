@@ -107,13 +107,11 @@
   flex-direction: column;
   gap: 25px;
   height: fit-content;
-  left: 1%;
   padding: 21px 18px;
   position: absolute;
-  top: 100%;
+  top:100px;
   visibility: hidden;
   width: 100%;
-  margin-block: 15px;
   background-color: white;
 }
 
