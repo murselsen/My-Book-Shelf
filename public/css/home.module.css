@@ -154,5 +154,5 @@
 .recommend-wrapper .recommend-content .library-list .library-item .books {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 20px;
 }
