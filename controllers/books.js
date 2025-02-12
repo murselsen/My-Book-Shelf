@@ -1,8 +1,8 @@
 const axios = require('axios');
 
-const topBooks = () => {
+const topBooks = async () => {
   // https://books-backend.p.goit.global/books/top-books
-  axios
+  const response = await axios
     .get('https://books-backend.p.goit.global/books/top-books')
     .then(response => {
       console.log(response);
